@@ -25,7 +25,7 @@ const Banner = () => {
                         <p className="py-6">I am a creative and passionate Front - End Web Developer who has acquired enough skills to excel in this field. I have completed some projects to utilize the skills. I have the necessary confidence to work in this sector.</p>
                     </div>
 
-                    <a href='https://drive.google.com/file/d/1Uz8w-RM6rr9TR0cJsEY5BmLRoEBkBL_V/view?usp=share_link' target='blank' className="myBtn mr-5">Resume</a>
+                    <a href='https://drive.google.com/file/d/1Yb-aMJrPcwWfGzsv3gEQTAJergoz6DFq/view?usp=share_link' target='blank' className="myBtn mr-5">Resume</a>
                     <Link to='/email' className="myBtn">Hire Me</Link>
                 </div>
             </div>
