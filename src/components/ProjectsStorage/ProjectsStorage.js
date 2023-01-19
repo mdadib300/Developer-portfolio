@@ -12,7 +12,7 @@ import project9 from '../../assets/projects/earnEdit.png';
 const ProjectsStorage = () => {
     return (
         <div className='m-3 text-white'>
-            <h1 className="text-4xl font-semibold text-center my-5 md:my-10 lg:my-20">All Projects</h1>
+            <h1 className="text-4xl font-semibold text-center my-5 md:my-10 lg:my-20">Portfolio 📂</h1>
             <div className='w-3/4 mx-auto mb-7'>
                 <h2 className='text-3xl font-semibold mb-0 lg:mb-5'>1. Eid Zakat</h2>
                 <div className='flex flex-col lg:flex-row-reverse items-center justify-around py-5 rounded-md'>
@@ -32,21 +32,21 @@ const ProjectsStorage = () => {
                 </div>
             </div>
             <div className='w-3/4 mx-auto mb-7'>
-                <h2 className='text-3xl font-semibold mb-0 lg:mb-5'>2. Penguin Fashion</h2>
+                <h2 className='text-3xl font-semibold mb-0 lg:mb-5'>2. Panda Commerce</h2>
                 <div className='flex flex-col lg:flex-row items-center justify-around py-5 rounded-md'>
-                    <img src={project3} alt='project demo' className='rounded-md w-full lg:w-[500px] mb-5 lg:mb-0'></img>
+                    <img src={project2} alt='project demo' className='rounded-md w-full lg:w-[500px] mb-5 lg:mb-0'></img>
                     <div className='ml-0 lg:ml-10'>
-                        <h2>Penguin Fashion, an e-commerce landing page. Made with HTML, HTML5, CSS, CSS3. No framework is used. This webpage isn't responsive, only suitable for desktop and laptop. The main objectives of the webpage are Flexbox and Grid layout.</h2>
+                        <h2>Panda Commerce, an e-commerce landing page made with: HTML, CSS and Bootstrap. Some custom CSS styles are used. The site is fully responsive for mobile, tablet, laptop and desktop.</h2>
                         <div className='mt-5'>
                             <div class="badge badge-outline mr-3">HTML</div>
-                            <div class="badge badge-outline">CSS</div>
+                            <div class="badge badge-outline mr-3">CSS</div>
+                            <div class="badge badge-outline">Bootstrap</div>
                         </div>
                         <div className='mt-8'>
-                            <a href='https://mdadib300.github.io/penguin-fashion/' target='blank' className='myBtn mr-5'>Live Website</a>
-                            <a href='https://github.com/mdadib300/penguin-fashion/' target='blank' className='myBtn'>Details</a>
+                            <a href='https://mdadib300.github.io/Panda-commerce/' target='blank' className='myBtn mr-5'>Live Website</a>
+                            <a href='https://github.com/mdadib300/Panda-commerce' target='blank' className='myBtn'>Details</a>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div className='w-3/4 mx-auto mb-7'>
@@ -67,25 +67,25 @@ const ProjectsStorage = () => {
                 </div>
             </div>
             <div className='w-3/4 mx-auto mb-7'>
-                <h2 className='text-3xl font-semibold mb-0 lg:mb-5'>4. Panda Commerce</h2>
+                <h2 className='text-3xl font-semibold mb-0 lg:mb-5'>4. Penguin Fashion</h2>
                 <div className='flex flex-col lg:flex-row items-center justify-around py-5 rounded-md'>
-                    <img src={project2} alt='project demo' className='rounded-md w-full lg:w-[500px] mb-5 lg:mb-0'></img>
+                    <img src={project3} alt='project demo' className='rounded-md w-full lg:w-[500px] mb-5 lg:mb-0'></img>
                     <div className='ml-0 lg:ml-10'>
-                        <h2>Panda Commerce, an e-commerce landing page made with: HTML, CSS and Bootstrap. Some custom CSS styles are used. The site is fully responsive for mobile, tablet, laptop and desktop.</h2>
+                        <h2>Penguin Fashion, an e-commerce landing page. Made with HTML, HTML5, CSS, CSS3. No framework is used. This webpage isn't responsive, only suitable for desktop and laptop. The main objectives of the webpage are Flexbox and Grid layout.</h2>
                         <div className='mt-5'>
                             <div class="badge badge-outline mr-3">HTML</div>
-                            <div class="badge badge-outline mr-3">CSS</div>
-                            <div class="badge badge-outline">Bootstrap</div>
+                            <div class="badge badge-outline">CSS</div>
                         </div>
                         <div className='mt-8'>
-                            <a href='https://mdadib300.github.io/Panda-commerce/' target='blank' className='myBtn mr-5'>Live Website</a>
-                            <a href='https://github.com/mdadib300/Panda-commerce' target='blank' className='myBtn'>Details</a>
+                            <a href='https://mdadib300.github.io/penguin-fashion/' target='blank' className='myBtn mr-5'>Live Website</a>
+                            <a href='https://github.com/mdadib300/penguin-fashion/' target='blank' className='myBtn'>Details</a>
                         </div>
                     </div>
+
                 </div>
             </div>
             <div className='w-3/4 mx-auto mb-7'>
-                <h2 className='text-3xl font-semibold mb-0 lg:mb-5'>5. Bank Transaction</h2>
+                <h2 className='text-3xl font-semibold mb-0 lg:mb-5'>5. United Bank of Adib - UBA</h2>
                 <div className='flex flex-col lg:flex-row-reverse items-center justify-around py-5 rounded-md'>
                     <img src={project1} alt='project demo' className='rounded-md w-full lg:w-[500px] mb-5 lg:mb-0'></img>
                     <div className='mr-0 lg:mr-10'>

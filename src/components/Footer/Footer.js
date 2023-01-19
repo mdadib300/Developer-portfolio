@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaLinkedinIn, FaYoutube, FaFacebook, FaGithub } from 'react-icons/fa';
+import { FaLinkedinIn, FaYoutube, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -12,9 +12,9 @@ const Footer = () => {
             </div>
             <div>
                 <div className="grid grid-flow-col gap-4">
+                    <a href='https://github.com/mdadib300' target='blank' className='text-2xl'><FaGithub /></a>
                     <a href='https://www.linkedin.com/in/adib-chowdhury-73b301225/' target='blank' className='text-2xl'><FaLinkedinIn /></a>
                     <a href='https://www.youtube.com/channel/UCemDCQe6q0EX9BppRYApN1Q' target='blank' className='text-2xl'><FaYoutube /></a>
-                    <a href='https://github.com/mdadib300' target='blank' className='text-2xl'><FaGithub /></a>
                 </div>
             </div>
             <div>

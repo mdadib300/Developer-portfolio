@@ -37,7 +37,7 @@ const Testimonials = () => {
                     </div>
                     <div className="card-body">
                         <h2 className="text-xl font-bold">Ratings: ⭐⭐⭐⭐</h2>
-                        <p className='font-semibold'>Excellent! working with Adib was great. Thanks to his knowledge and determination. Our website looks great and functions are really updated. I can highly recommend Adib as a standard web developer.</p>
+                        <p className='font-semibold'>Excellent! working with Adib was great. Thanks to his knowledge and determination. Our website looks great and functions are really updated. I can highly recommend Adib as a standard front - end web developer.</p>
                     </div>
                 </div>
                 <div className="w-80 mx-auto bg-primary rounded-md block md:hidden lg:block">
@@ -51,9 +51,8 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <div className="card-body">
-                        <h2 className="text-xl font-bold">Ratings: ⭐⭐⭐</h2>
-                        <p className='font-semibold'>Thank you Adib for your work. It was really fast and it was also perfectly done. I got it nicely finished. Thanks for the work.
-                            Appreciate it a lot!!</p>
+                        <h2 className="text-xl font-bold">Ratings: ⭐⭐⭐⭐</h2>
+                        <p className='font-semibold'>Thanks Adib for your work. It was really fast and it was also perfectly done. I got it nicely finished. Thanks for the work. Appreciate it a lot!!</p>
                     </div>
                 </div>
             </div>
