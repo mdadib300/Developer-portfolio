@@ -71,7 +71,7 @@ const ProjectsStorage = () => {
                 <div className='flex flex-col lg:flex-row items-center justify-around py-5 rounded-md'>
                     <img src={project3} alt='project demo' className='rounded-md w-full lg:w-[500px] mb-5 lg:mb-0'></img>
                     <div className='ml-0 lg:ml-10'>
-                        <h2>Penguin Fashion, an e-commerce landing page. Made with HTML, HTML5, CSS, CSS3. No framework is used. This webpage isn't responsive, only suitable for desktop and laptop. The main objectives of the webpage are Flexbox and Grid layout.</h2>
+                        <h2>Penguin Fashion, an e-commerce landing page. Made with HTML, HTML5, CSS, CSS3. No framework is used. This webpage is responsive for mobile phone, laptop and desktop. The main objectives of the webpage are Flexbox, Grid layout and Responsiveness.</h2>
                         <div className='mt-5'>
                             <div class="badge badge-outline mr-3">HTML</div>
                             <div class="badge badge-outline">CSS</div>
