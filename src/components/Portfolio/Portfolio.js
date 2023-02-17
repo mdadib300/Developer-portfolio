@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
     return (
-        <div className='m-3 text-white'>
-            <h1 className="text-4xl font-semibold text-center my-10 lg:my-20">Portfolio 📁</h1>
+        <div className='m-3'>
+            <h1 className="text-4xl font-semibold text-center my-10 lg:my-20">Portfolio</h1>
 
             <div className='w-3/4 mx-auto mb-7'>
                 <h2 className='text-3xl font-semibold mb-0 lg:mb-5'>1. Penguin Fashion</h2>

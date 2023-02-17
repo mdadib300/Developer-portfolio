@@ -5,7 +5,7 @@ import client3 from '../../assets/testimonials/shuvo.jpg';
 
 const Testimonials = () => {
     return (
-        <div className='m-3 text-white'>
+        <div className='m-3'>
             <h1 className="text-4xl font-semibold text-center my-10 lg:my-20">Other clients say 💬</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 text-secondary'>
                 <div className="w-80 mx-auto bg-primary rounded-md">

@@ -3,7 +3,7 @@ import { FaLinkedinIn, FaYoutube, FaFacebook, FaInstagram, FaGithub } from 'reac
 
 const Contact = () => {
     return (
-        <div className='m-4 lg:m-10 text-white'>
+        <div className='m-4 lg:m-10'>
             <h1 className="text-4xl font-semibold text-center my-5 md:my-10 lg:my-20">Contact info.</h1>
             <div>
                 <h5 className='text-xl text-center mb-3'>Phone number: +880 1871 061620</h5>
