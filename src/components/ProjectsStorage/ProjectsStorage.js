@@ -40,42 +40,9 @@ const ProjectsStorage = () => {
                 </div>
             </div>
 
-            <div className='w-3/4 mx-auto mb-7'>
-                <h2 className='text-3xl font-semibold mb-0 lg:mb-5'>3. LeaderBoard</h2>
-                <div className='flex flex-col lg:flex-row-reverse items-center justify-around py-5 rounded-md'>
-                    <img src={ideaBoard} alt='project demo' className='rounded-md w-full lg:w-[500px] mb-5 lg:mb-0'></img>
-                    <div className='mr-0 lg:mr-10'>
-                        <h2>Made with: HTML and CSS. Main objectives of this webpage are Cards, Flexbox and Grid layout. This site isn't responsive. Only suitable for laptop and desktop.</h2>
-                        <div className='mt-5'>
-                            <div class="badge badge-outline mr-3">HTML</div>
-                            <div class="badge badge-outline">CSS</div>
-                        </div>
-                        <div className='mt-8'>
-                            <a href='https://mdadib300.github.io/Leader-Board/' target='blank' className='myBtn mr-5'>Live Website</a>
-                            <a href='https://github.com/mdadib300/Leader-Board' target='blank' className='myBtn'>Details</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
 
-            <div className='w-3/4 mx-auto mb-7'>
-                <h2 className='text-3xl font-semibold mb-0 lg:mb-5'>4. Penguin Fashion</h2>
-                <div className='flex flex-col lg:flex-row items-center justify-around py-5 rounded-md'>
-                    <img src={penguin} alt='project demo' className='rounded-md w-full lg:w-[500px] mb-5 lg:mb-0'></img>
-                    <div className='ml-0 lg:ml-10'>
-                        <h2>Penguin Fashion, an e-commerce landing page. Made with HTML, HTML5, CSS, CSS3. No framework is used. This webpage is responsive for mobile phone, laptop and desktop. The main objectives of the webpage are Flexbox, Grid layout and Responsiveness.</h2>
-                        <div className='mt-5'>
-                            <div class="badge badge-outline mr-3">HTML</div>
-                            <div class="badge badge-outline">CSS</div>
-                        </div>
-                        <div className='mt-8'>
-                            <a href='https://mdadib300.github.io/penguin-fashion/' target='blank' className='myBtn mr-5'>Live Website</a>
-                            <a href='https://github.com/mdadib300/penguin-fashion/' target='blank' className='myBtn'>Details</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+            
 
             <div className='w-3/4 mx-auto mb-7'>
                 <h2 className='text-3xl font-semibold mb-0 lg:mb-5'>5. United Bank of Adib - UBA</h2>
@@ -117,24 +84,7 @@ const ProjectsStorage = () => {
                 </div>
             </div>
 
-            <div className='w-3/4 mx-auto mb-7'>
-                <h2 className='text-3xl font-semibold mb-0 lg:mb-5'>7. EarnEdit</h2>
-                <div className='flex flex-col lg:flex-row-reverse items-center justify-around py-5 rounded-md'>
-                    <img src={earn} alt='project demo' className='rounded-md w-full lg:w-[500px] mb-5 lg:mb-0'></img>
-                    <div className='mr-0 lg:mr-10'>
-                        <h2>EarnEdit, for calculating expenses and savings. Made with: HTML, CSS and JavaScript. This site isn't responsive. suitable for laptop and desktop. Main objective is JavaScript DOM Manipulation.</h2>
-                        <div className='mt-5'>
-                            <div class="badge badge-outline mr-3">HTML</div>
-                            <div class="badge badge-outline mr-3">CSS</div>
-                            <div class="badge badge-outline">JavaScript</div>
-                        </div>
-                        <div className='mt-8'>
-                            <a href='https://mdadib300.github.io/EarnEdit/' target='blank' className='myBtn mr-5'>Live Website</a>
-                            <a href='https://github.com/mdadib300/EarnEdit' target='blank' className='myBtn'>Details</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
 
             <div className='w-3/4 mx-auto mb-7'>
                 <h2 className='text-3xl font-semibold mb-0 lg:mb-5'>8. Jerin's Parlour</h2>
