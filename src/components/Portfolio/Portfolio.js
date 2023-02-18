@@ -1,4 +1,5 @@
 import React from 'react';
+import projects from '../../assets/icons/projectLogo.png';
 import ideaBoard from '../../assets/projects/idea-board.png';
 import project5 from '../../assets/projects/Jerins-parlour.png';
 import project6 from '../../assets/projects/Influencer-Point.png';
@@ -7,7 +8,12 @@ import { Link } from 'react-router-dom';
 const Portfolio = () => {
     return (
         <div className='m-3'>
+            
+
+            <div className='flex items-center justify-center'>
             <h1 className="text-4xl font-semibold text-center my-10 lg:my-20">Portfolio</h1>
+                <img src={projects} className='w-[40px] ml-2'></img>
+            </div>
 
             <div className='w-3/4 mx-auto mb-7'>
                 <h2 className='text-3xl font-semibold mb-0 lg:mb-5'>1. Idea-Board</h2>
