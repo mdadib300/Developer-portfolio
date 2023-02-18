@@ -1,4 +1,5 @@
 import React from 'react';
+import './Services.css';
 import serviceLogo from '../../assets/icons/service.png';
 import figToHtml from '../../assets/icons/figma.png';
 import frontEnd from '../../assets/icons/frontEnd.png';
