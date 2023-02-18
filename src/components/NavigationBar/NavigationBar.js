@@ -6,7 +6,7 @@ import about from '../../assets/icons/info.png';
 const NavigationBar = () => {
     return (
         <div id='navigation-bar-top'>
-            <div className="navbar">
+            <div className="navbar p-5">
                 <div className="navbar-start">
                     <Link className='btn btn-ghost' to='/projects'>
                         <img src={portfolio} className='w-[30px]' alt='Portfolio'></img>
