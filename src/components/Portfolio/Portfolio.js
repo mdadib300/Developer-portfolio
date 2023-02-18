@@ -12,7 +12,7 @@ const Portfolio = () => {
 
             <div className='flex items-center justify-center'>
             <h1 className="text-4xl font-semibold text-center my-10 lg:my-20">Portfolio</h1>
-                <img src={projects} className='w-[40px] ml-2'></img>
+                <img src={projects}  className='w-[40px] ml-2'></img>
             </div>
 
             <div className='w-3/4 mx-auto mb-7'>
