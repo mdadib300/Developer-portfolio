@@ -49,7 +49,7 @@ code {
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  border-radius: 5px;
+  border-radius: 3px;
   background-image: linear-gradient(to right, #1B98F5 0%, #7bbef1 51%, #1B98F5 100%);
 }
 
