@@ -1,4 +1,5 @@
 import React from 'react';
+import skills from '../../assets/icons/skillLogo.png';
 import html from '../../assets/icons/skills/html.png';
 import css from '../../assets/icons/skills/css-3.png';
 import bootstrap from '../../assets/icons/skills/bootstrap.png';
@@ -10,7 +11,10 @@ const Skills = () => {
     return (
         <div className='m-3'>
 
-            <h1 className="text-4xl font-semibold text-center my-10 lg:my-20">Skills</h1>
+            <div className='flex items-center justify-center'>
+                <h1 className="text-4xl font-semibold text-center my-10 lg:my-20">Skills</h1>
+                <img src={skills} className='w-[40px] ml-2'></img>
+            </div>
 
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5'>
                 <div className='hover:shadow-md w-40 p-5 flex items-center justify-center flex-col rounded-md mx-auto'>
