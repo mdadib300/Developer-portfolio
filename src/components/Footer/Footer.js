@@ -9,7 +9,7 @@ const Footer = () => {
         <footer className="footer footer-center p-10 bg-primary text-white mt-5 md:mt-10 lg:mt-16">
             <div className="grid grid-flow-col gap-4">
                 <a href='/#navigation-bar-top' className="link link-hover text-lg">Home</a>
-                <Link to='/about' className="link link-hover text-lg">About me</Link>
+                <Link to='/about' className="link link-hover text-lg">About</Link>
                 <Link to='/contact' className="link link-hover text-lg">Contact</Link>
             </div>
             <div>
