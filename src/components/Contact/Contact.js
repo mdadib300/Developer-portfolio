@@ -17,7 +17,7 @@ const Contact = () => {
             <div>
                 <h5 className='text-xl text-center mb-3'>Phone number: +880 1871 061620</h5>
                 <h5 className='text-xl text-center mb-3'>Email Address: mdadib300@gmail.com</h5>
-                <h5 className='text-xl text-center'>Other social links: </h5>
+                <h5 className='text-xl text-center'>Other links: </h5>
                 <div className='flex items-center justify-center mt-5'>
                     <a href='https://www.linkedin.com/in/adib-chowdhury-73b301225/' target='blank' className='text-2xl'>
                         <img src={linkedin} alt='LinkedIn' className='w-9 mr-5'></img>

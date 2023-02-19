@@ -2,13 +2,10 @@ import React from 'react';
 import portfolio from '../../assets/icons/portfolio.png';
 import Bank from './Bank/Bank';
 import PandaCommerce from './PandaCommrece/PandaCommerce';
-import penguin from '../../assets/projects/Penguin-Fashion.png';
-import ideaBoard from '../../assets/projects/LeaderBoard.png';
 import JerinParlour from './JerinParlour/JerinParlour';
 import InfluencerPoint from './InfluencerPoint/InfluencerPoint';
 import IdeaBoard from './IdeaBoard/IdeaBoard';
 import CarDoctor from './CarDoctor/CarDoctor';
-import earn from '../../assets/projects/earnEdit.png';
 
 const ProjectsStorage = () => {
     return (
