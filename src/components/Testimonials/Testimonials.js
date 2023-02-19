@@ -8,14 +8,11 @@ import client3 from '../../assets/testimonials/shuvo.jpg';
 const Testimonials = () => {
     return (
         <div className='m-3'>
-
             <div className='flex items-center justify-center'>
                 <h1 className="text-4xl font-semibold text-center my-10 lg:my-20">Testimonials</h1>
                 <img src={testimonial} alt='Testimonials' className='w-[40px] ml-2'></img>
             </div>
-
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 text-secondary'>
-
                 <div className="w-80 mx-auto shadow-xl rounded-md">
                     <div className='flex items-center'>
                         <div className="w-20 mx-7 mt-5 mask mask-hexagon">
@@ -42,7 +39,6 @@ const Testimonials = () => {
                         </div>
                     </div>
                 </div>
-
                 <div className="w-80 mx-auto shadow-xl rounded-md">
                     <div className='flex items-center'>
                         <div className="w-20 mx-7 mt-5 mask mask-hexagon">
@@ -66,7 +62,6 @@ const Testimonials = () => {
                         </div>
                     </div>
                 </div>
-
                 <div className="w-80 mx-auto shadow-xl rounded-md block md:hidden lg:block">
                     <div className='flex items-center'>
                         <div className="w-20 mx-7 mt-5 mask mask-hexagon">
@@ -78,7 +73,7 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <div className="card-body">
-                        <p className='font-semibold'>Thanks Adib for your work. It was really fast and it was also perfectly done. I got it nicely finished. Thanks for the work. Appreciate it a lot!!</p>
+                        <p className='font-semibold'>Thanks Adib for your work. It was really fast and it was also perfectly done. I got it nicely finished. Thanks for the work. Appreciate it a lot!!!</p>
                         <div className='flex items-center'>
                             <h1 className="text-xl font-bold">Ratings:</h1>
                             <div>
@@ -89,7 +84,6 @@ const Testimonials = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     );
