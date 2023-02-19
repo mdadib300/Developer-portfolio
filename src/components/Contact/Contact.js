@@ -11,9 +11,8 @@ const Contact = () => {
         <div className='m-4 lg:m-10'>
             <div className='flex items-center justify-center'>
                 <h1 className="text-4xl font-semibold text-center my-5 md:my-10 lg:my-20">Contact info.</h1>
-                <img src={contact} alt='About me' className='w-[40px] ml-2'></img>
+                <img src={contact} alt='Contact information' className='w-[40px] ml-2'></img>
             </div>
-
             <div>
                 <h5 className='text-xl text-center mb-3'>Phone number: +880 1871 061620</h5>
                 <h5 className='text-xl text-center mb-3'>Email Address: mdadib300@gmail.com</h5>
