@@ -13,32 +13,32 @@ const Skills = () => {
 
             <div className='flex items-center justify-center'>
                 <h1 className="text-4xl font-semibold text-center my-10 lg:my-20">Skills</h1>
-                <img src={skills} className='w-[40px] ml-2'></img>
+                <img src={skills} alt='My skills' className='w-[40px] ml-2'></img>
             </div>
 
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5'>
                 <div className='hover:shadow-md w-40 p-5 flex items-center justify-center flex-col rounded-md mx-auto'>
-                    <img src={html} className='w-[80px] mb-3'></img>
+                    <img src={html} alt='HTML' className='w-[80px] mb-3'></img>
                     <button className='skillBtn'>HTML</button>
                 </div>
                 <div className='hover:shadow-md w-40 p-5 flex items-center justify-center flex-col rounded-md mx-auto'>
-                    <img src={css} className='w-[80px] mb-3'></img>
+                    <img src={css} alt='CSS' className='w-[80px] mb-3'></img>
                     <button className='skillBtn'>CSS</button>
                 </div>
                 <div className='hover:shadow-md w-40 p-5 flex items-center justify-center flex-col rounded-md mx-auto'>
-                    <img src={bootstrap} className='w-[80px] mb-3'></img>
+                    <img src={bootstrap} alt='Bootstrap' className='w-[80px] mb-3'></img>
                     <button className='skillBtn'>Bootstrap</button>
                 </div>
                 <div className='hover:shadow-md w-40 p-5 flex items-center justify-center flex-col rounded-md mx-auto'>
-                    <img src={tailwind} className='w-[80px] mb-3'></img>
+                    <img src={tailwind} alt='Tailwind CSS' className='w-[80px] mb-3'></img>
                     <button className='skillBtn'>Tailwind</button>
                 </div>
                 <div className='hover:shadow-md w-40 p-5 flex items-center justify-center flex-col rounded-md mx-auto'>
-                    <img src={js} className='w-[80px] mb-3'></img>
+                    <img src={js} alt='JavaScript' className='w-[80px] mb-3'></img>
                     <button className='skillBtn'>JavaScript</button>
                 </div>
                 <div className='hover:shadow-md w-40 p-5 flex items-center justify-center flex-col rounded-md mx-auto'>
-                    <img src={react} className='w-[80px] mb-3'></img>
+                    <img src={react} alt='React.JS' className='w-[80px] mb-3'></img>
                     <button className='skillBtn'>React.js</button>
                 </div>
             </div>
