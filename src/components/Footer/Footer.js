@@ -17,7 +17,7 @@ const Footer = () => {
                     <a href='https://github.com/mdadib300' target='blank' className='text-2xl'>
                         <img src={git} alt='Github' className='w-9'></img>
                     </a>
-                    <a href='https://www.linkedin.com/in/adib-chowdhury-73b301225/' target='blank' className='text-2xl'>
+                    <a href='https://www.linkedin.com/in/md-adib-chowdhury-2203ba270/' target='blank' className='text-2xl'>
                         <img src={linkedin} alt='LinkedIn' className='w-9'></img>
                     </a>
                     <a href='https://www.youtube.com/channel/UCemDCQe6q0EX9BppRYApN1Q' target='blank' className='text-2xl'>

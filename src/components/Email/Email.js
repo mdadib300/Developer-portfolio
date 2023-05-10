@@ -9,7 +9,7 @@ const Email = () => {
             <p className='text-xl'>You email subject should be: 'Want to Hire You'</p>
             <div className='mt-10'>
                 <a className='myBtn my-5' href='https://mail.google.com/mail/u/0/#inbox?compose=new' target='blank'>Send Email</a>
-                <Link to='/' className='myBtn ml-5'>Jump back to Homepage</Link>
+                <Link to='/' className='myBtn ml-5'>Homepage</Link>
             </div>
         </div>
     );
